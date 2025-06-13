@@ -1,0 +1,9 @@
+\t (00:00:01) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed Mar 06 22:08:37 2019
+\t (00:00:01)         Host=DESKTOP-H08HB8T User=anime Pid=14116 CPUs=8
+\t (00:00:01) CmdLine= C:\Cadence\SPB_17.2\tools\bin\padstack_editor.exe
+\t (00:00:01) 
+\d (00:00:06) QtSignal MainWindow New triggered
+\d (00:00:13) QtSignal fileNewDialog browse clicked
+\d (00:00:16) QtFillin 
+\t (00:00:18)     Journal end - Wed Mar 06 22:08:55 2019

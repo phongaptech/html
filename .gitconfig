@@ -1,0 +1,13 @@
+[core]
+	editor = \"C:/Program Files (x86)/GitExtensions/GitExtensions.exe\" fileeditor
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
+	autosquash = false
+	updateRefs = false
+[user]
+	name = Seiba
+	email = phong.bg.1857@aptechlearning.edu.vn

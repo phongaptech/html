@@ -1,0 +1,18 @@
+\t (00:00:25) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:25)     Journal start - Wed Mar 06 23:10:38 2019
+\t (00:00:25)         Host=DESKTOP-H08HB8T User=anime Pid=12820 CPUs=8
+\t (00:00:25) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:25) 
+   (00:00:25) Loading axlcore.cxt 
+\t (00:00:25) Starting new design...
+\i (00:00:28) trapsize 1235
+\i (00:00:28) trapsize 1288
+\i (00:00:28) trapsize 1580
+\i (00:00:28) placementedit 
+\i (00:02:15) generaledit 
+\i (00:02:15) generaledit 
+\i (00:02:16) new 
+\e (00:02:16) Do you want to save the changes you made to unnamed.brd?
+\i (00:02:19) fillin no 
+\i (00:02:48) newdrawfillin "Nguyen Ngoc Minh Quoc.brd" "Board"
+\t (00:02:48)     Journal end - Wed Mar 06 23:13:00 2019

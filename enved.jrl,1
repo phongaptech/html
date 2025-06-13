@@ -1,0 +1,9 @@
+\t (00:00:00) enved 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Mar 06 22:47:58 2019
+\t (00:00:00)         Host=DESKTOP-H08HB8T User=anime Pid=15136 CPUs=8
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\enved.exe
+\t (00:00:00) 
+\i (00:00:03) setwindow form.prfedit
+\i (00:00:03) FORM prfedit treelist  My_favorites 
+\i (00:00:04) FORM prfedit cancel  
+\t (00:00:04)     Journal end - Wed Mar 06 22:48:03 2019

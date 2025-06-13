@@ -1,0 +1,8 @@
+\t (00:00:00) dbdoctor_ui 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Mar 06 22:51:22 2019
+\t (00:00:00)         Host=DESKTOP-H08HB8T User=anime Pid=7324 CPUs=8
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\dbdoctor_ui.exe
+\t (00:00:00) 
+\i (00:00:02) setwindow form.dbdoctor
+\i (00:00:02) FORM dbdoctor close  
+\t (00:00:02)     Journal end - Wed Mar 06 22:51:25 2019
