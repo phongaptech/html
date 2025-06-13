@@ -9,33 +9,97 @@
 </head>
 
 <body>
-
-    <header>
-        <img src="./assets/images/logo.png" alt="Logo">
+    <header class="navbar">
+        <img src="./assets/images/logo.png" alt="Logo" class="logo">
         <nav>
             <a href="#">Studio</a>
             <a href="#">Closet</a>
             <a href="#">Explore</a>
         </nav>
-        <input class="search-bar" type="text" placeholder="Search for collections, NFTs or users">
-        <div class="buttons">
-            <button>Login</button>
-            <button class="black-btn">Select Wallet</button>
+        <div class="actions">
+            <input type="text" placeholder="Search for collections, NFTs or users">
+            <button class="login">Login</button>
+            <button class="wallet">Select Wallet</button>
         </div>
     </header>
 
-    <div class="main">
-        <div class="content">
+    <section class="hero">
+        <div class="hero-text">
             <h1>Transform The World</h1>
             <p>Check out the most premium, unique and exclusive NFTs</p>
-            <div class="btns">
-                <button class="black-btn">Get started hh</button>
-                <button class="white-btn">Learn more</button>
+            <div class="hero-buttons">
+                <button class="btn-black">Get started</button>
+                <button class="btn-white">Learn more</button>
             </div>
         </div>
-        <img src="./assets/images/ntfpic.png" alt="NFT Image">
-    </div>
+        <div class="hero-image">
+            <img src="./assets/images/ntfpic.png" alt="NFT Fashion">
+        </div>
+    </section>
 
+    <section class="featured">
+        <div class="featured-header">
+            <div>
+                <h2>Featured Collections</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ipsum urna in diam mauris.</p>
+            </div>
+            <button class="btn-outline">View all</button>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <img src="./assets/images/collection1.png" alt="Collection 1">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/collection2.png" alt="Collection 2">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/collection3.png" alt="Collection 3">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./assets/images/collection4.png" alt="Collection 4">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
