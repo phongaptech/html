@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
-    <header class="navbar">
-        <img src="./assets/images/logo.png" alt="Logo" class="logo">
-        <nav>
-            <a href="#">Studio</a>
-            <a href="#">Closet</a>
-            <a href="#">Explore</a>
-        </nav>
-        <div class="actions">
-            <input type="text" placeholder="Search for collections, NFTs or users">
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="Logo" class="logo">
+        </div>
+        <ul class="main-menu">
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">Closet</a></li>
+            <li class="dropdown"> <a href="#">Explore <i class="fas fa-chevron-down"></i></a> </li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for collections, NFTs or users" />
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="buttons">
             <button class="login">Login</button>
             <button class="wallet">Select Wallet</button>
         </div>
     </header>
 
     <section class="hero">
-        <div class="hero-text">
+        <div class="hero-left">
             <h1>Transform The World</h1>
             <p>Check out the most premium, unique and exclusive NFTs</p>
             <div class="hero-buttons">
@@ -97,6 +103,92 @@
                     <p>Short Description</p>
                     <button class="btn-outline">View collection</button>
                 </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/collection5.png" alt="Collection 5">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/collection6.png" alt="Collection 6">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/collection7.png" alt="Collection 7">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./assets/images/collection8.png" alt="Collection 8">
+                <div class="card-content">
+                    <div class="author">
+                        <img src="./assets/images/author.png" alt="Author">
+                        <span>Naomi Po</span>
+                    </div>
+                    <strong>Name of the collection</strong>
+                    <p>Short Description</p>
+                    <button class="btn-outline">View collection</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how-it-works">
+        <div class="how-container">
+            <div class="how-box">
+                <div class="icon" style="background-color: #e5d4f6">
+                    <i class="fas fa-wallet"></i>
+                </div>
+                <h3>Set Up Your Wallet</h3>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                    previewing</p>
+            </div>
+            <div class="how-box">
+                <div class="icon" style="background-color: #c4e3ca">
+                    <i class="fas fa-th-large"></i>
+                </div>
+                <h3>Create Your Collection</h3>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                    previewing</p>
+            </div>
+
+            <div class="how-box">
+                <div class="icon" style="background-color: #d2d5f7">
+                    <i class="fas fa-image"></i>
+                </div>
+                <h3>Add Your NFTs</h3>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                    previewing</p>
+            </div>
+
+            <div class="how-box">
+                <div class="icon" style="background-color: #f3c7b9">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <h3>List Them For Sale</h3>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
+                    previewing</p>
             </div>
         </div>
     </section>
